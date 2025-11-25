@@ -45,12 +45,21 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 
+# Type checkers
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
 # Virtual environments
 venv/
+venv_*/
 env/
 ENV/
 env.bak/
 venv.bak/
+.venv/
 
 # IDEs
 .vscode/
@@ -58,7 +67,12 @@ venv.bak/
 *.swp
 *.swo
 *~
+*.iml
 
 # OS
 .DS_Store
 Thumbs.db
+
+# Local configuration
+.mcp.json
+*.local
