@@ -8,13 +8,13 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="ipapi-python",
+    name="ip-api-wrapper",
     version="0.1.0",
     author="Aleš Kancilija",
     description="Python wrapper for ip-api.com geolocation API",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/mrpesho/ip-api",
+    url="https://github.com/mrpesho/ip-api-wrapper",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",

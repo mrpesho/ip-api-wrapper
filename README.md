@@ -17,10 +17,10 @@ A comprehensive Python wrapper for the [ip-api.com](https://ip-api.com) geolocat
 ## Installation
 
 ```bash
-pip install -r requirements.txt
+pip install ip-api-wrapper
 ```
 
-Or install in development mode:
+For development:
 
 ```bash
 pip install -e .
@@ -266,4 +266,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 - [IP-API Website](https://ip-api.com)
 - [IP-API Documentation](https://ip-api.com/docs)
-- [GitHub Repository](https://github.com/yourusername/ip-api)
+- [GitHub Repository](https://github.com/mrpesho/ip-api-wrapper)
