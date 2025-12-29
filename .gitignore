@@ -77,3 +77,4 @@ Thumbs.db
 .mcp.json
 *.local
 CLAUDE.md
+.claude/
